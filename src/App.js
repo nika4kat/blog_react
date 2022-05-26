@@ -3,7 +3,6 @@ import Home from "./views/Home";
 import Blog from "./views/Blog";
 import Wishlist from "./views/Wishlist";
 import NavBar from "./common/NavBar";
-import Footer from "./common/Footer";
 
 function App() {
 	return (
@@ -18,7 +17,6 @@ function App() {
 					</Routes>
 				</div>
 			</BrowserRouter>
-			<Footer />
 		</div>
 	);
 }
